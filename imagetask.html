@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .main{
+            margin-top: 30px;
+            height: 80vh;
+            width: 40%;
+            background-color:aliceblue;
+            border: solid;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            display:grid;
+            grid-template-columns: 100px 100px 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px 100px 100px;
+            row-gap: 10px;
+            column-gap: 10px;
+            place-items: center;
+            box-shadow: 1px 1px 50px 30px rgb(37, 36, 36);
+           
+           
+        }
+        .main .img{
+            height: 100%;
+            width: 100%;
+            border: 2px solid;
+            display: grid;
+            /*place-items: center;*/
+            
+           
+           
+            
+            
+        }
+        .one{
+            padding: auto;
+           
+            grid-row: 1/4;
+            grid-column: 1/2;
+            
+        }
+        .two{
+            grid-row: 1/2;
+            grid-column: 2/4;
+        }
+        .four{
+            grid-row: 1/3;
+            grid-column: 4/6;
+        }
+        .thirteen{
+            grid-row: 4/6;
+            grid-column: 1/3;
+        }
+        .twelve{
+            grid-row: 3/6;
+            grid-column: 5/6;
+        }
+        .eleven{
+            grid-row: 5/6;
+            grid-column: 3/5;
+        }
+          
+
+        h1{
+            /*margin-top: px;*/
+            text-transform:lowercase;
+            font-size: 2rem;
+            color: transparent;
+            text-align: center;
+            /*-webkit-text-stroke: 1px lime;*/
+            /*background:linear-gradient(20deg,red,orange,grey,magenta,blue);*/
+            background: url(https://media.tenor.com/Cn4VO6vi-m4AAAAM/scenecore-stars.gif);
+            background-clip:text ;
+            background-size: 90%;
+            background-position-y: -150px;
+            font-family:fantasy;
+        }
+        h1{
+            animation: zoom-up 0.8s linear infinite alternate ;
+        }
+    
+    @keyframes zoom-up {
+        to{
+            transform:  scale(1.5) ;
+           
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img  class="img one" src="img4.jpg" alt="" >
+        <img class="img two" src="img10.jpg" alt="" >
+        <img class="img three" src="imag1.jpg" alt=""  >
+        <img class="img four" src="img3.jpeg" alt="" >
+        <img class="img five" src="img2.jpg" alt="" >
+        <img class="img six" src="img6.jpg" alt="" >
+        <img class="img seven" src="img8.jpg" alt="" >
+        <img class="img eight" src="img9.jpeg" alt="">
+        <img class="img nine" src="img5.jpg" alt="" >
+        <img class="img ten" src="img13.jpg" alt="" >
+        <img class="img eleven" src="img12.jpg" alt="" >
+        <img class="img twelve" src="img11.JPG" alt="" >
+        <img class="img thirteen" src="img7.jpg" alt="" >
+        
+        
+    </div>
+   <h1>PARAMESH</h1> 
+</body>
+</html>
